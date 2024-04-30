@@ -10,8 +10,8 @@
 locale                   : "en-US"
 title                    : "Min Yang"
 title_separator          : "-"
-name                     : &name "Min Yang(sounds like 'yahng')"
-description              : &description "a computer science researcher who loves coffee and cooking but hasn't adopted a cat yet."
+name                     : &name "Min Yang(sounds like yahng)"
+description              : &description "A computer science researcher who loves coffee and cooking but hasn't adopted a cat yet."
 url                      : https://meiyeung3056.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "meiyeung3056/meiyeung3056.github.io"
@@ -22,9 +22,9 @@ repository               : "meiyeung3056/meiyeung3056.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Min Yang (sounds like Yahng)"
+  name             : "Min Yang (sounds like 'Yahng')"
   pronouns         : "she/her"
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "A computer science researcher who loves coffee and cooking but hasn't adopted a cat yet."
   location         : "Indiana/Bloomington"
   employer         : "Indiana University Bloomington"
   uri              : # URL
