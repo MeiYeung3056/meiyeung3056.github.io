@@ -187,11 +187,6 @@ window.siteContent = {
     github: "",
     googleScholar: "https://scholar.google.com/citations?user=Jq5OHBgAAAAJ",
     linkedin: "https://linkedin.com/in/min-yang-2815aa265",
-    extraLinks: [
-      {
-        label: "Phone",
-        href: "tel:+19303332209"
-      }
-    ]
+    extraLinks: []
   }
 };
