@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+*.log
+*.aux
+*.fls
+*.fdb_latexmk
+*.out
+*.synctex.gz
+Min_Yang_resume_overleaf/main.pdf

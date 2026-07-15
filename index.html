@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal website for Min Yang, featuring research, publications, education, and contact information."
+    />
+    <meta property="og:title" content="Min Yang | Personal Website" />
+    <meta
+      property="og:description"
+      content="A professional personal website for internship applications and career development."
+    />
+    <meta property="og:type" content="website" />
+    <title>Min Yang | Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="logo" href="#top" aria-label="Min Yang home">MY</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          Menu
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#news">News</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-content">
+          <p class="eyebrow">Oregon Health and Science University</p>
+          <h1 class="hero-name">
+            <span class="english-name">Min Yang</span>
+            <span class="chinese-name" lang="zh-Hans">杨敏</span>
+            <span class="name-pronunciation">pronounced “Yahng Meen”</span>
+          </h1>
+          <p class="hero-subtitle">
+            Graduate student building a career at the intersection of research, data, and technology.
+          </p>
+          <p class="hero-text">
+            I am preparing for internship opportunities and long-term career growth. This website
+            highlights my research, publications, education, and professional interests.
+          </p>
+          <div class="social-links" aria-label="Profile links">
+            <a class="social-link" data-profile-link="resume" href="Min_Yang_Resume_20260714.pdf" aria-label="Resume" title="Resume">
+              <span class="social-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M6 2h8l5 5v15H6V2Zm7 1.8V8h4.2L13 3.8ZM8 11v2h8v-2H8Zm0 4v2h8v-2H8Zm0 4v1h5v-1H8Z" />
+                </svg>
+              </span>
+            </a>
+            <a class="social-link" data-profile-link="googleScholar" href="#" aria-label="Google Scholar" title="Google Scholar">
+              <span class="social-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M12 2 2 10l10 8 10-8-10-8Zm0 3.1L17.9 10 12 14.9 6.1 10 12 5.1Z" />
+                  <path d="M7 17.5c0 2.5 2.2 4.5 5 4.5s5-2 5-4.5S14.8 13 12 13s-5 2-5 4.5Zm2.4 0c0-1.2 1.2-2.2 2.6-2.2s2.6 1 2.6 2.2-1.2 2.2-2.6 2.2-2.6-1-2.6-2.2Z" />
+                </svg>
+              </span>
+            </a>
+            <a class="social-link" data-profile-link="linkedin" href="#" aria-label="LinkedIn" title="LinkedIn">
+              <span class="social-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.5 8h4v15h-4V8Zm7 0h3.8v2.05h.05c.53-1 1.82-2.05 3.75-2.05 4.01 0 4.75 2.64 4.75 6.07V23h-4v-7.91c0-1.89-.03-4.32-2.63-4.32-2.64 0-3.04 2.06-3.04 4.18V23h-4V8Z" />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="profile-card" aria-label="Profile summary">
+          <div class="profile-photo-placeholder" aria-hidden="true">YM</div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-heading about-heading">
+          <h2>About</h2>
+        </div>
+        <div class="content-card">
+          <p>
+            I am a graduate student with interests in computational problem solving, research-driven
+            analysis, and practical software tools. I enjoy turning complex questions into clear,
+            reproducible workflows and communicating results to technical and non-technical audiences.
+          </p>
+          <p>
+            This section can be customized with your academic background, research interests, career
+            goals, and the types of internship roles you are targeting.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="news">
+        <div class="section-heading">
+          <h2>News</h2>
+        </div>
+        <div class="news-list"></div>
+      </section>
+
+      <section class="section" id="research">
+        <div class="section-heading">
+          <h2>Research Areas</h2>
+        </div>
+        <div class="grid three-column research-grid"></div>
+      </section>
+
+      <section class="section" id="publications">
+        <div class="section-heading">
+          <h2>Selected Publications</h2>
+        </div>
+        <div class="publication-list"></div>
+      </section>
+
+      <section class="section" id="awards">
+        <div class="section-heading">
+          <h2>Selected Honors and Service</h2>
+        </div>
+        <div class="award-list"></div>
+      </section>
+
+      <section class="section" id="education">
+        <div class="section-heading">
+          <h2>Academic Background</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div>
+              <h3>Oregon Health &amp; Science University</h3>
+              <p class="meta">Graduate Program &middot; Expected Graduation Year</p>
+            </div>
+            <p>
+              Add degree program, department, research focus, relevant coursework, honors, or academic
+              milestones here.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <div>
+              <h3>Previous Institution</h3>
+              <p class="meta">Degree &middot; Graduation Year</p>
+            </div>
+            <p>
+              Add prior education, thesis topic, awards, or relevant academic preparation here.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="beyond-lab">
+        <div class="section-heading">
+          <h2>Outside Research</h2>
+        </div>
+        <div class="beyond-lab-list">
+          <article class="content-card beyond-lab-placeholder">
+            <p>This space is reserved for activities and interests beyond the lab.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading">
+          <h2>Technical Skills</h2>
+        </div>
+        <div class="skills-list" aria-label="Technical skills">
+          <span>Python</span>
+          <span>R</span>
+          <span>JavaScript</span>
+          <span>Data Analysis</span>
+          <span>Statistics</span>
+          <span>Git</span>
+          <span>Scientific Writing</span>
+          <span>Reproducible Workflows</span>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="section-heading">
+          <h2>Get in Touch</h2>
+        </div>
+        <div class="content-card">
+          <p>
+            I am interested in internship opportunities, research collaborations, and roles where I can
+            apply analytical and technical skills to meaningful problems.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:your.email@example.com">Email</a>
+            <a href="https://github.com/your-username">GitHub</a>
+            <a href="https://www.linkedin.com/in/your-profile">LinkedIn</a>
+            <a href="Min_Yang_Resume_20260714.pdf">Resume</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Min Yang. All rights reserved.</p>
+    </footer>
+
+    <script src="content.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
